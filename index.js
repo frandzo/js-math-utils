@@ -19,3 +19,16 @@ function max(a,b){
         console.log("son iguales");
     }
 }
+
+function resta(a,b){
+    console.log(a-b);
+}
+
+function redondeo(a){
+    let mod=a%1;
+    if(mod<0.5){
+        console.log(a-mod);
+    }else{
+        console.log(a-mod+1);
+    }
+}
