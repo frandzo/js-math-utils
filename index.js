@@ -19,3 +19,7 @@ function max(a,b){
         console.log("son iguales");
     }
 }
+
+function resta(a,b){
+    console.log(a-b);
+}
