@@ -5,3 +5,7 @@ function showNumber(num){
 function sum(a,b){
     console.log(a+b);
 }
+
+function prom(a,b){
+    console.log((a+b)/2);
+}
